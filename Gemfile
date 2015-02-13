@@ -21,6 +21,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'cancan'
 gem 'paperclip'
+gem 'dotenv-rails', group: [:development]
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
