@@ -10,7 +10,7 @@
   .container
     - flash.each do |type, msg|
       .alert.alert-info.fade-in
-        %button.close{ 'data-dismiss' => 'alert' }
+        %button.close{ 'data-dismiss' => 'alert' } X
         = msg
     = yield
 
