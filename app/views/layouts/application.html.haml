@@ -8,5 +8,9 @@
 %body
   = render 'layouts/header'
   .container
+    - flash.each do |type, msg|
+      .alert.alert-info.fade-in
+        %button.close{ 'data-dismiss' => 'alert' }
+        = msg
     = yield
 
