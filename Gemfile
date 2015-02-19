@@ -23,6 +23,7 @@ gem 'cancan'
 gem 'paperclip'
 gem 'dotenv-rails', group: [:development]
 gem 'aws-sdk'
+gem 'friendly_id'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
