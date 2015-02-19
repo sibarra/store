@@ -22,6 +22,7 @@ gem 'devise'
 gem 'cancan'
 gem 'paperclip'
 gem 'dotenv-rails', group: [:development]
+gem 'aws-sdk'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
